@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+
 import BackButton from '@/components/BackButton';
 
 import Log_analysis from '../assets/Log_analysis.gif';

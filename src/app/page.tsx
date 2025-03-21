@@ -10,8 +10,7 @@ import thesis from '../app/assets/Thesis.png';
 import './globals.css';
 import Link from 'next/link';
 import { ClientImage } from '@/components/ClientImages';
-import { melb_data } from '@/components/ImageData';
-import ImageGallery from '@/components/ImageGallery';
+
 
 export default function Home() {
   return (

@@ -1,10 +1,10 @@
 'use client';
 
 import React from 'react';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 
 interface ClientImageProps {
-  src: any;
+  src: string | StaticImageData;
   alt: string;
   width: number;
   height: number;

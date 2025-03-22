@@ -39,6 +39,7 @@ export default function Home() {
             </button>
           </Link>
         </div>
+        
       </div>
 
       {/* Welcome Section */}
@@ -74,16 +75,18 @@ export default function Home() {
             <p className="w-full sm:w-3/4 lg:w-4/5 mx-auto mt-5">
              Python-based log analysis dashboard with multiple visualization types including user activity distribution, security metrics, and anomaly detection.<br/> Processes simulated log files to provide actionable security recommendations.
             </p>
-            <div className="cursor-pointer">
-              <ClientImage
-              src={Log_analysis}
-              alt="Log analysis"
-              width={600}
-              height={400}
-              unoptimized
-               className="mt-5 mb-5 mx-auto "
-              />
-            </div>
+           <Link href="/log_analysis">
+              <div className="cursor-pointer">
+                <ClientImage
+                src={Log_analysis}
+                alt="Log analysis"
+                width={600}
+                height={400}
+                unoptimized
+                 className="mt-5 mb-5 mx-auto "
+                />
+              </div>
+           </Link>
           </div>
 
           {/* Security Monitoring System */}
@@ -93,16 +96,18 @@ export default function Home() {
               <p className="w-full sm:w-4/5 lg:w-3/5 mx-auto mt-5">
                Python-based security platform with comprehensive user activity logging and role-based access control. Tracks page access with timestamps and IP addresses, allowing administrators to manage logs and user permissions.
               </p>
-              <div className="cursor-pointer">
-                <ClientImage
-                src={Security_server}
-                alt="Security server"
-                width={600}
-                height={400}
-                unoptimized
-                className="mt-5 mb-5 mx-auto "
-                />
-              </div>
+              <Link href="/Security_server">
+                <div className="cursor-pointer">
+                  <ClientImage
+                  src={Security_server}
+                  alt="Security server"
+                  width={600}
+                  height={400}
+                  unoptimized
+                  className="mt-5 mb-5 mx-auto "
+                  />
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -112,14 +117,16 @@ export default function Home() {
           <p className="w-full sm:w-3/4 lg:w-4/5 mx-auto mt-5">
             Currently working on a Python-based network firewall using Scapy for packet inspection and filtering. Capable of detecting and blocking various attack vectors including SQL injection, XSS, Log4j exploits, and DDoS attempts. Features IP blacklisting, protocol-based filtering, rate limiting, and comprehensive logging stored in an encrypted SQLite database.
           </p>
-          <Image
-            src={Firewall}
-            alt="Firewall"
-            width={600}
-            height={400}
-            className="mt-5 mb-5 mx-auto "
-          />
-          
+         <Link href="/Firewall">
+            <Image
+              src={Firewall}
+              alt="Firewall"
+              width={600}
+              height={400}
+              className="mt-5 mb-5 mx-auto "
+            />
+            
+         </Link>
         </div>
 
 

@@ -116,7 +116,7 @@ const Firewall_Page = () => {
                 </div>
             </div>
             <a className="block mx-auto text-base w-full text-center md:w-1/6 font-alegreya text-gray-700 leading-relaxed mb-6 px-4 underline underline-offset-1 hover:text-blue-600 transition-colors duration-300" 
-            href='https://github.com/mac455/Python-Firewall'
+            href='https://github.com/mac455/Firewall'
             target='_blank'
             rel='noopener noreferrer'
             > (Source code available here) 

@@ -56,7 +56,7 @@ const Footer = () => {
       <div>
         <a
           className="mt-10 block mx-auto text-center text-sm sm:text-base w-full font-alegreya leading-relaxed mb-6 px-4 underline underline-offset-1 hover:text-purple-500 transition duration-300"
-          href="https://github.com/mac455/Cybersecurity-Portfolio/tree/main"
+          href="https://github.com/mac455/Cybersecurity-Portfolio"
           target="_blank"
           rel="noopener noreferrer"
         >

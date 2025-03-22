@@ -47,7 +47,7 @@ export default function Home() {
           <li className={`${pathname === '/projects' ? 'text-blue-500' : ''} hover:text-blue-500`}>Projects</li>
         </Link>
         
-        <a href="/Tech_CV_Data.pdf"
+        <a href="/Cyber_CV_EIRE_MARCH_2025.pdf"
          target="_blank"
           rel="noopener noreferrer"
           className={`${pathname === '/cv' ? 'text-blue-500' : ''} hover:text-blue-500`}

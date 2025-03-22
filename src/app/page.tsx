@@ -27,7 +27,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col text-center w-full sm:w-3/4 md:w-2/3 lg:w-2/4 p-4 md:p-8">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-roboto font-bold bg-gradient-to-r from-blue-500 to-indigo-900 bg-clip-text text-transparent">
-            SOC Analyst <br /> 
+            Cybersecurity Analyst <br /> 
           </h1>
           <h2 className="font-alegreya text-base sm:text-lg lg:text-2xl font-light mt-4 leading-relaxed">
             Final semester MSc Computing student and CompTIA Security+ certified professional with hands-on experience in log analysis, security monitoring, and network security. 
